@@ -5,8 +5,8 @@ public class Main {
         Book idiot = new Book("Идиот", author1,1868);
         Book mumu = new Book("Му-му", author2, 1852);
         mumu.setAge(1860);
-        System.out.println("mumu = " + mumu + author1);
-        System.out.println("idiot = " + idiot + author2);
+        System.out.println("mumu = " + mumu.getAuthor().getName() + " " + mumu.getAuthor().getLastName());
+        System.out.println("idiot = " + idiot.getAuthor().getName() + " " + idiot.getAuthor().getLastName());
     }
 }
 
