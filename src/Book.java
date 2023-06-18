@@ -23,7 +23,7 @@ public class Book {
         this.age = age;
         }
     public String toString() {
-        return "Название книги: " + this.name + ", год: " + this.age + this.author;
+        return "Название книги: " + this.name + ", год: " + this.age + ", " + this.author;
     }
     @Override
     public boolean equals(Object books) {
